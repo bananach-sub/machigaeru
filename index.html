@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>何を聞かれても間違えるAI - マチガエル</title>
+<style>
+  body { font-family: sans-serif; background: #f4f4f4; margin: 0; }
+  #chat {
+    height: 80vh; overflow-y: auto;
+    padding: 10px; background: white; margin: 10px;
+    border-radius: 10px;
+  }
+  .msg { margin: 10px 0; }
+  .user { text-align: right; color: #007bff; }
+  .bot { text-align: left; color: #222; }
+  #input-area { display: flex; padding: 10px; }
+  #text { flex: 1; padding: 10px; }
+  #send { padding: 10px 20px; }
+</style>
+</head>
+<body>
+<div id="chat"></div>
+<div id="input-area">
+  <input id="text" placeholder="なんでも聞いてよ">
+  <button id="send">送信</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
