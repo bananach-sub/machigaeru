@@ -21,7 +21,7 @@ async function askGemini(text) {
       }
     ]
   }'
-
+  );
 function addMessage(text, who) {
   const div = document.createElement("div");
   div.className = "msg " + who;
